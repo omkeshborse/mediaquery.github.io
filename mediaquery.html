@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color: #7FFFD5;
+            text-align: center;
+        }
+            
+        
+        
+        @media screen and (max-width:1440px){
+            
+            body{
+                background-color: #04a915;
+            }
+            h1::after{
+                content: "screen size :1440px";
+            }
+        }
+        @media screen and (max-width:1024){
+            
+            body{
+                background-color: #B1882F;
+            }
+            h1::after{
+                content: "screen size :1240px";
+            }
+        }
+        @media screen and (max-width:768px){
+            
+            body{
+                background-color: #75FBFD;
+            }
+            h1::after{
+                content: "screen size :768px";
+            }
+        }
+        @media screen and (max-width:425px){
+            
+            body{
+                background-color: #CA3142;
+            }
+            h1::after{
+                content: "screen size :425px";
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1> This is a  Meadia Query demo page. <br>
+    </h1>
+</body>
+</html>
